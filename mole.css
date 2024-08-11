@@ -1,0 +1,15 @@
+#mole {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-image: url('cookie.jpg');
+	background-size: cover;
+	cursor: url('man-open-mouth.png'), auto;
+}
+
+#mole:hover {
+	background-image: url('cookie-bite.png');
+}
